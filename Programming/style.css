@@ -1,0 +1,161 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(29, 24, 24) ;
+    font: 100;
+}
+.sidebar{
+    background-color:rgb(29, 24, 24);
+    width: 45%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100% ;
+    
+    
+    }
+    .sidebar nav{
+        padding: 5px;
+    }
+    .sidebar nav li{
+        list-style-type: none;
+        font-size: 18px;
+        padding: 23px;
+
+    }
+    .sidebar nav li a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+.main{
+    background-color:rgb(29, 24, 24);
+    display: flex;
+    width: 85%;
+    
+}
+
+.container{
+    display: flex;
+   
+}
+.background{
+    display: flex;
+    justify-content: center;
+    size: 100vw;
+
+}
+
+.InfoContainer{
+    background-color: rgb(29, 24, 24);
+    height: 100%;
+    width: 90vw;
+    margin: 145px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    
+
+    
+    
+}
+.InfoContainer-card{
+    margin-top: 100px;
+}
+.Infohandler{
+    background-color: white;
+    height: 70vh;
+    width: 90vw;
+    margin: 0;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    display: contents;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.hello{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.About{
+    font-size:20px ;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.moreabout{
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Buttons{
+    margin-top: 34px;
+} 
+.Buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: azure;
+    background-color: rgb(71, 71, 209);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
+.Buttons button:hover{
+    background-color: azure;
+    color: rgb(71, 71, 209);
+
+}
+.devPic img{
+    width: 40vw;
+    height: 70vh;
+    padding-left: 100px;
+    padding-right: 45px ;
+}
+
+.contactfrom{
+    padding-top: 244px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    display: inline-flex;
+
+}
+
+.contactfrom h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.Services{
+    padding-top: 244px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Services2{
+    padding-top: 244px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.hol{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.can{
+    text-decoration: none;
+    color: blanchedalmond;
+    text-align: right;
+    font-size: 20px;
+}
